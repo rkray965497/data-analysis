@@ -26,7 +26,5 @@ plt.title('Total Sales by Product')
 plt.xlabel('Product Name')
 plt.ylabel('Total Sales ($)')
 plt.xticks(rotation=45) # Tilt labels so they don't overlap
-plt.show()
-
-
-[Image of a simple bar chart showing sales amounts for different products]
+plt.savefig('sales_by_product.png')
+print("Plot saved as 'sales_by_product.png'")
